@@ -126,6 +126,7 @@ public class FiniteAutomata {
                 "Input Symbols: " + alphabet.toString() + '\n' +
                 "Start State: " + startState + '\n' +
                 "Final States: " + finalStates.toString() + '\n' +
+                "Deterministic: " + deterministic + '\n' +
                 "Transitions: " + transitions.toString() + '\n';
     }
 }
